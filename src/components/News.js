@@ -78,7 +78,8 @@ fetchMoreData = async () => {
     return (
       
       <div className='container my-3'>
-        <h1 className='text-center my-5'>NewsMonkey - Top Headlines - {this.cap(this.props.category)}</h1>
+        <h1 className='text-center my-5'>NewsMonkey - Top Headlines - {this.cap(this.props.category)}-❤❤❤❤</h1>
+        <h1 className='text-center my-5'>NewsMonkey - Top Headlines - {this.cap(this.props.category)}-❤❤❤❤</h1>
         {this.state.loading && <Loading/>}
         
         <InfiniteScroll
