@@ -1,11 +1,10 @@
 // import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Newsitem extends Component {
+const Newsitem =(props)=> {
   // static propTypes = {}
 
-  render() {
-    let {title, description, imageUrl, newsUrl, author, date, source} = this.props
+    let {title, description, imageUrl, newsUrl, author, date, source} = props
     return (
       <div>
         <div className="card">
@@ -20,7 +19,7 @@ export class Newsitem extends Component {
         </div>
       </div>
     )
-  }   
+   
 }
 
 export default Newsitem
